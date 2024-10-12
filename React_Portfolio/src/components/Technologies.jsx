@@ -1,6 +1,6 @@
-import { FaNodeJs } from 'react-icons/fa'
+import { FaNodeJs, FaPhp } from 'react-icons/fa'
 import {RiNextjsLine, RiReactjsLine} from 'react-icons/ri'
-import {SiJavascript,SiPython} from 'react-icons/si'
+import {SiJavascript,SiPython, SiCsharp} from 'react-icons/si'
 import {BiLogoPostgresql} from 'react-icons/bi'
 import {motion} from 'framer-motion'
 
@@ -66,6 +66,16 @@ const Technologies = () => {
             initial='initial'
             animate='animate' className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <FaNodeJs className='text-7xl text-green-500'/>
+            </motion.div>
+            <motion.div variants={iconVariants(2)}
+            initial='initial'
+            animate='animate' className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiCsharp className='text-7xl text-purple-700'/>
+            </motion.div>
+            <motion.div variants={iconVariants(4)}
+            initial='initial'
+            animate='animate' className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <FaPhp className='text-7xl text-gray-400'/>
             </motion.div>
         </motion.div>
     </div>
