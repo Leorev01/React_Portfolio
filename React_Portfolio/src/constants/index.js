@@ -71,6 +71,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "London, United Kingdom",
-  phoneNo: "+07",
+  phoneNo: "07462636123",
   email: "revrennaleo@gmail.com",
 };
