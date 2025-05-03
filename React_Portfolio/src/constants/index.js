@@ -11,7 +11,7 @@ export const EXPERIENCES = [
   {
     year: "2024 - Present",
     role: "Full Stack Web Developer",
-    company: "Google Inc.",
+    company: "Slick Site",
     description: `Started and managed a web development startup, building scalable and high-performance web applications with modern technologies.`,
     technologies: ["Javascript", "React.js", "Next.js", "PostgreSQL"],
   },
