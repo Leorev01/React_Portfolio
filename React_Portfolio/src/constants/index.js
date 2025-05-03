@@ -1,6 +1,6 @@
 import bookbuy from "../assets/projects/bookbuy.png";
 import yoom from "../assets/projects/yoom.png";
-import portfolio from "../assets/projects/portfolio.png";
+import meeteen from "../assets/projects/meeteen.png";
 import blog from "../assets/projects/blog.png";
 
 export const HERO_CONTENT = `I am a passionate third-year computer science student with hands-on experience in full stack web development and data analysis. I have developed skills in front-end technologies such as React and Next.js, along with back-end technologies like Node.js, MySQL, PostgreSQL, and Python. My goal is to leverage my knowledge and experience to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -9,7 +9,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "2024 - 2025",
     role: "Full Stack Web Developer",
     company: "Slick Site",
     description: `Started and managed a web development startup, building scalable and high-performance web applications with modern technologies.`,
@@ -33,12 +33,12 @@ export const PROJECTS = [
     technologies: ["HTML", "TailwindCSS", "React", "NextJs"],
   },
   {
-    title: "Portfolio Website",
-    image: portfolio,
+    title: "Advanced Events Management Platform",
+    image: meeteen, // Replace with actual image reference
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React"],
-  },
+      "A feature-rich web application for event creation, management, and participation. Includes real-time chat, Google Maps integration, dynamic charts, and responsive design.",
+    technologies: ["Next.js", "Supabase", "Tailwind CSS", "Google Maps API", "Chart.js"],
+  },  
   {
     title: "Blogging Platform",
     image: blog,
