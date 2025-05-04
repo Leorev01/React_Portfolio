@@ -1,4 +1,4 @@
-import aboutImg from '../assets/Leo_About2.jpeg'
+import aboutImg from '../assets/Leo_About3.jpg'
 import { ABOUT_TEXT } from '../constants'
 import {motion} from 'framer-motion'
 
