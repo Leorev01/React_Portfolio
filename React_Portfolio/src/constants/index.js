@@ -44,7 +44,7 @@ export const PROJECTS = [
     image: yoom,
     description:
       "An application for video conferences and rooms, pretty much a replica of skype.",
-    technologies: ["HTML", "TailwindCSS", "React", "NextJs", "Clerk Authnetication"],
+    technologies: ["HTML", "TailwindCSS", "React", "NextJs", "Clerk Authnetication", "Stream"],
   },
   {
     title: "Blogging Platform",
