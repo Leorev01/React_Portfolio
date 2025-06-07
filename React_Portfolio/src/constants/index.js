@@ -37,7 +37,7 @@ export const PROJECTS = [
     image: bookbuy,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "TailwindCSS", "React", "NextJs", "PostgresSQL"],
+    technologies: ["HTML", "TailwindCSS", "React", "NextJs", "PostgresSQL", "Google Cloud Authentication", "Github Authentication"],
   },
   {
     title: "Video Conference App",
