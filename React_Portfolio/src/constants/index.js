@@ -9,8 +9,15 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
+    year: "2025 - 2025",
+    role: "Software Engineer Intern",
+    company: "NovAzure",
+    description: "Worked as a software engineer intern, contributing to the development of an advanced calculator that calculates figures such as CAPEX, OPEX, CO2 emissions and more.",
+    technologies: ["TypeScript", "React", "Next.js", "Python", "MongoDB"],
+  },
+  {
     year: "2024 - 2025",
-    role: "Full Stack Web Developer",
+    role: "Founder / Full Stack Web Developer",
     company: "Slick Site",
     description: `Started and managed a web development startup, building scalable and high-performance web applications with modern technologies.`,
     technologies: ["TypeScript", "React.js", "Next.js", "PostgreSQL", "GoCardless"],
