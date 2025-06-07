@@ -3,7 +3,7 @@ import yoom from "../assets/projects/yoom.png";
 import meeteen from "../assets/projects/meeteen.png";
 import blog from "../assets/projects/blog.png";
 
-export const HERO_CONTENT = `I am a passionate third-year computer science student with hands-on experience in full stack web development and data analysis. I have developed skills in front-end technologies such as React and Next.js, along with back-end technologies like Node.js, MySQL, PostgreSQL, and Python. My goal is to leverage my knowledge and experience to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate third-year computer science student with hands-on experience in full stack web development and data analysis. I have developed skills in front-end technologies such as React and Next.js, along with back-end technologies like Node.js, Express.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my knowledge and experience to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. As a third-year computer science student, I have gained hands-on experience with various technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, Python, Git and more. My interest in web development grew from a fascination with creating interactive experiences and finding innovative solutions to real-world problems. This passion has evolved into a commitment to continuous learning and adaptation to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy taking part in sports, exploring the outdoors, and staying active through various physical activities. These experiences help me maintain a balanced lifestyle and inspire my creativity.`;
 
@@ -19,6 +19,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Advanced Events Management Platform",
+    image: meeteen, // Replace with actual image reference
+    description:
+      "A feature-rich web application for event creation, management, and participation. Includes real-time chat, Google Maps integration, location-based filtering, dynamic charts, and responsive design.",
+    technologies: ["Next.js", "Supabase", "Tailwind CSS", "Google Maps API", "Google Geocoder API","Chart.js"],
+  },
+  {
     title: "E-Commerce Website",
     image: bookbuy,
     description:
@@ -32,13 +39,6 @@ export const PROJECTS = [
       "An application for video conferences and rooms, pretty much a replica of skype.",
     technologies: ["HTML", "TailwindCSS", "React", "NextJs"],
   },
-  {
-    title: "Advanced Events Management Platform",
-    image: meeteen, // Replace with actual image reference
-    description:
-      "A feature-rich web application for event creation, management, and participation. Includes real-time chat, Google Maps integration, dynamic charts, and responsive design.",
-    technologies: ["Next.js", "Supabase", "Tailwind CSS", "Google Maps API", "Chart.js"],
-  },  
   {
     title: "Blogging Platform",
     image: blog,

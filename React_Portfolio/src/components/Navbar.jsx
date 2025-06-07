@@ -1,5 +1,5 @@
 import logo from '../assets/LeoLogo.png'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa'
 
 const Navbar = () => {
   return (
@@ -8,6 +8,7 @@ const Navbar = () => {
             <img className='mx-2 w-20' src={logo} alt="logo" />
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+            <a href='https://www.youtube.com/@CrappyCoder2001' target='_blank'><FaYoutube /></a>
             <a href='https://github.com/Leorev01' target='_blank'><FaGithub /></a>
             <a href='https://www.linkedin.com/in/leorev01' target='_blank'><FaLinkedin /></a>
         </div>
