@@ -9,6 +9,13 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
+    year: "2026 - Current",
+    role: "Software Support Engineer",
+    company: "Aforza",
+    description: "Diagnosed and resolved complex technical escalations within a Salesforce-based Consumer Goods platform. Debugged Apex triggers and SOQL queries to ensure data integrity and seamless performance for global enterprise clients.",
+    technologies: ["SOQL", "Apex", "Salesforce"], 
+  },
+  {
     year: "2025 - 2025",
     role: "Software Engineer Intern",
     company: "NovAzure",
