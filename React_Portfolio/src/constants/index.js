@@ -17,9 +17,9 @@ export const EXPERIENCES = [
   },
   {
     year: "2025 - 2025",
-    role: "Software Engineer Intern",
+    role: "Software Engineer",
     company: "NovAzure",
-    description: "Worked as a software engineer intern, contributing to the development of an advanced calculator that calculates figures such as CAPEX, OPEX, CO2 emissions and more.",
+    description: "Worked as a software engineer, contributing to the development of an advanced calculator that calculates figures such as CAPEX, OPEX, CO2 emissions and more.",
     technologies: ["TypeScript", "React", "Next.js", "Python", "MongoDB"],
   },
   {
