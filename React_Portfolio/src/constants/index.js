@@ -27,7 +27,7 @@ export const EXPERIENCES = [
     role: "Founder / Full Stack Web Developer",
     company: "Slick Site",
     description: `Started and managed a web development startup, building scalable and high-performance web applications with modern technologies.`,
-    technologies: ["TypeScript", "React.js", "Next.js", "PostgreSQL", "GoCardless"],
+    technologies: ["TypeScript", "React.js", "Next.js", "PostgreSQL", "Stripe"],
   },
 ];
 
