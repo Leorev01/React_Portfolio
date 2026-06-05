@@ -8,9 +8,9 @@ const Navbar = () => {
             <img className='mx-2 w-20' src={logo} alt="logo" />
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-            <a href='https://www.youtube.com/@CrappyCoder2001' target='_blank'><FaYoutube /></a>
-            <a href='https://github.com/Leorev01' target='_blank'><FaGithub /></a>
-            <a href='https://www.linkedin.com/in/leorev01' target='_blank'><FaLinkedin /></a>
+            <a href='https://www.youtube.com/@CrappyCoder2001' target='_blank' className='social' ><FaYoutube /></a>
+            <a href='https://github.com/Leorev01' target='_blank' className='social' ><FaGithub /></a>
+            <a href='https://www.linkedin.com/in/leorev01' target='_blank' className='social'><FaLinkedin /></a>
         </div>
     </nav>
   )
