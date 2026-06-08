@@ -6,7 +6,8 @@ const Navbar = () => {
   function clickHandler(socialType){
     window.dataLayer = window.dataLayer || []
     window.dataLayer.push({
-      'socialView': socialType
+      'event':'socialView',
+      'type': socialType
     })
   }
   return (
