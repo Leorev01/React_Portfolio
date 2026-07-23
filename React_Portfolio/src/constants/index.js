@@ -10,6 +10,13 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const EXPERIENCES = [
   {
     year: "2026 - Current",
+    role: "Software Development Engineer",
+    company: "Tesco",
+    description: "Contribute to and maintain a large JavaScript codebase supporting Tesco's web platform. Implement and debug client-side features, analytics tracking, and API integrations, while investigating production issues across web, iOS, and Android. Validate API requests, perform cross-platform testing, and ensure reliable, privacy-compliant data collection and application behaviour.",
+    technologies: ["JavaScript", "Google Analytics", "Adobe Analytics", "Google Tag Manager", "Git"], 
+  },
+  {
+    year: "2026 - 2026",
     role: "Software Support Engineer",
     company: "Aforza",
     description: "Diagnosed and resolved complex technical escalations within a Salesforce-based Consumer Goods platform. Debugged Apex triggers and SOQL queries to ensure data integrity and seamless performance for global enterprise clients.",
@@ -20,14 +27,14 @@ export const EXPERIENCES = [
     role: "Software Engineer",
     company: "NovAzure",
     description: "Worked as a software engineer, contributing to the development of an advanced calculator that calculates figures such as CAPEX, OPEX, CO2 emissions and more.",
-    technologies: ["TypeScript", "React", "Next.js", "Python", "MongoDB"],
+    technologies: ["TypeScript", "React", "Next.js", "Python", "MongoDB", "Git"],
   },
   {
     year: "2024 - 2025",
     role: "Founder / Full Stack Web Developer",
     company: "Slick Site",
     description: `Started and managed a web development startup, building scalable and high-performance web applications with modern technologies.`,
-    technologies: ["TypeScript", "React.js", "Next.js", "PostgreSQL", "Stripe"],
+    technologies: ["TypeScript", "React.js", "Next.js", "PostgreSQL", "Stripe", "Git"],
   },
 ];
 
